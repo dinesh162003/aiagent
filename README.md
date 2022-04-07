@@ -270,13 +270,13 @@ if __name__ == "__main__":
     print('Starting Action\n',environment.status)
     print('Agent Location\n',agent.location)
     print('Agent Performance\n',agent.performance)
-    time.sleep(3)
-    for i in range(3):
+    time.sleep(5)
+    for i in range(4):
         print(environment.run(steps=1))
         print('Ending Action\n',environment.status)
         print('Agent Location\n',agent.location)
         print('Agent Performance\n',agent.performance)
-        time.sleep(3)
+        time.sleep(5)
 
 ```
 
